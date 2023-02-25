@@ -26,8 +26,7 @@ longitude:{
     required:true
 },
 state:{
-    type:String,
-    required:true
+    type:String
 }
 
 
