@@ -18,9 +18,11 @@ const connectDB = require("./config/db")
 dotenv.config()
 
 const userRoutes = require("./routes/userRoutes")
+const mailRoute = require("./routes/mailRoute")
 
 connectDB()
 app.use("/api",userRoutes)
+app.use("/api",mailRoute)
 
 
 
